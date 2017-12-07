@@ -32,10 +32,9 @@ a:hover {
 }
 
 #top {
-    width: 100%;
+    width: 98%;
     font-family: "黑体";
     text-align: right;
-    margin: 0px auto;
     padding-bottom: 10px;
     padding-right: 20px;
     background-color: yellow;
@@ -72,12 +71,11 @@ a:hover {
 }
 
 #nav_menu_mid {
-    width: auto;
-    border: 1pxsolid#ccc;
+    width: 100%;
     padding-bottom: 15px;
     min-height: 36px;
     margin: 0px auto;
-    text-align: center;
+    background: url() repeat-x;
 }
 
 #nav_menu_mid ul {
@@ -203,10 +201,10 @@ a:hover {
 .main_mid_content_list {
     font-size: 14px;
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 50px;
     line-height: 30px;
     list-style: square;
-    overflow-x: hidden;
+    overflow-y: scroll;
     height: 380px;
     }
 
@@ -279,9 +277,9 @@ a:hover {
     color: green;
 }
 
-.footer {
+#footer {
     clear: both;
-    width: 100%;
+    width: 200px;
     height: 65px;
     margin: 0;
     padding: 10px;
